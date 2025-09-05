@@ -42,4 +42,4 @@ if __name__ == '__main__':
     print(f"Place your HTML files in the '{HTML_FILES_DIRECTORY}' folder")
     print("Example: example.com/this -> html_files/this.html")
 
-    app.run(host='0.0.0.0', port=5010, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
