@@ -4,7 +4,7 @@ import os
 app = Flask(__name__)
 
 # Configuration - modify these as needed
-HTML_FILES_DIRECTORY = "/Users/luxyeung/Downloads/MCStacker-main/"  # Directory where your HTML files are stored
+HTML_FILES_DIRECTORY = "/opt/render/project/src/app"  # Directory where your HTML files are stored
 
 @app.route('/')
 def home():
